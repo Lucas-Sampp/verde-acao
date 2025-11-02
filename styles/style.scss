@@ -1,34 +1,11 @@
+@import 'variables/_colors.scss';
+
+@import 'components/header';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
-    background-color: #66BB6A;
-    height: 10vh;
-
-    h2,
-    nav {
-        display: inline-block;
-    }
-
-    nav {
-        width: 40%;
-        text-align: end;
-
-        a {
-            margin-left: 40px;
-            color: #ffffff;
-            text-decoration: none;
-        }
-    }
-
-    h2 {
-        color: #ffffff;
-        margin-left: 200px;
-        margin-top: 40px;
-    }
 }
 
 .background{
@@ -41,20 +18,20 @@ header {
 
     h2{
         font-size: 96px;
-        color: #ffffff;
+        color: $text-white;
     }
 
     p {
         font-size: 2rem;
-        color: #ffffff;
+        color: $text-white;
         margin-top: 10px;
         margin-bottom: 20px;
     }
 
     button{
         font-size: 1rem;
-        background-color: #66bb6a;
-        color: #ffffff;
+        background-color: $main-color;
+        color: $text-white;
         padding: 15px 30px;
         border: none;
         border-radius: 30px;
