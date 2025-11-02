@@ -25,7 +25,43 @@ header h2 {
   font-size: 50px;
   color: #ffffff;
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 308px;
+  height: 426px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 40px;
+  border-radius: 20px 20px;
+  padding: 0px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+.card h3 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+.card p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: "Roboto", Arial, sans-serif;
+  padding: 10px;
+}
+.card button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #66bb6a;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  border-radius: 29px;
+  padding: 15px 30px;
 }
 
 * {
@@ -34,7 +70,7 @@ header h2 {
   box-sizing: border-box;
 }
 
-.background {
+.background-section {
   background-image: url(../assets/images/background.png);
   height: 60vh;
   background-repeat: no-repeat;
@@ -42,12 +78,12 @@ header h2 {
   padding-top: 180px;
   text-align: center;
 }
-.background h2 {
+.background-section h2 {
   font-size: 96px;
   font-family: "Sansita Swashed", Arial, sans-serif;
   color: #ffffff;
 }
-.background p {
+.background-section p {
   font-size: 24px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
@@ -55,7 +91,7 @@ header h2 {
   margin-top: 10px;
   margin-bottom: 50px;
 }
-.background button {
+.background-section button {
   font-size: 28px;
   background-color: #66bb6a;
   font-weight: 700;
@@ -63,4 +99,9 @@ header h2 {
   padding: 30px 60px;
   border: none;
   border-radius: 68px;
+}
+
+.cards-section {
+  background-color: #f1f8e9;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
