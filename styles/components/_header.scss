@@ -1,5 +1,5 @@
 header {
-    background-color: #66BB6A;
+    background-color: $main-color;
     height: 10vh;
 
     h2,
@@ -13,13 +13,13 @@ header {
 
         a {
             margin-left: 40px;
-            color: #ffffff;
+            color: $text-white;
             text-decoration: none;
         }
     }
 
     h2 {
-        color: #ffffff;
+        color: $text-white;
         margin-left: 200px;
         margin-top: 40px;
     }

@@ -1,5 +1,6 @@
-@import 'components/header';
+@import 'variables/_colors.scss';
 
+@import 'components/header';
 
 * {
     margin: 0;
@@ -17,20 +18,20 @@
 
     h2{
         font-size: 96px;
-        color: #ffffff;
+        color: $text-white;
     }
 
     p {
         font-size: 2rem;
-        color: #ffffff;
+        color: $text-white;
         margin-top: 10px;
         margin-bottom: 20px;
     }
 
     button{
         font-size: 1rem;
-        background-color: #66bb6a;
-        color: #ffffff;
+        background-color: $main-color;
+        color: $text-white;
         padding: 15px 30px;
         border: none;
         border-radius: 30px;
