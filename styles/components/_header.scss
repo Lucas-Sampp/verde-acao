@@ -1,0 +1,26 @@
+header {
+    background-color: #66BB6A;
+    height: 10vh;
+
+    h2,
+    nav {
+        display: inline-block;
+    }
+
+    nav {
+        width: 40%;
+        text-align: end;
+
+        a {
+            margin-left: 40px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+        color: #ffffff;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+}
