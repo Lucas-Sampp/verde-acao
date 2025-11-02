@@ -2,6 +2,7 @@
 @import 'variables/typography';
 
 @import 'components/header';
+@import 'components/card';
 
 * {
     margin: 0;
@@ -9,7 +10,7 @@
     box-sizing: border-box;
 }
 
-.background{
+.background-section{
     background-image: url(../assets/images/background.png);
     height: 60vh;
     background-repeat: no-repeat;
@@ -41,4 +42,9 @@
         border: none;
         border-radius: 68px;
     }
+}
+
+.cards-section{
+    background-color: $cards-section-color;
+    text-align: center;
 }
