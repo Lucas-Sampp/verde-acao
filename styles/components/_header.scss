@@ -1,0 +1,31 @@
+header {
+    background-color: $main-color;
+    height: 10vh;
+
+    h2,
+    nav {
+        display: inline-block;
+    }
+
+    nav {
+        width: 60%;
+        text-align: end;
+        a {
+            font-size: $font-size-medium-1;
+            font-family: $font-family-default;
+            font-weight: $font-weight-default;
+            margin-left: 80px;
+            color: $text-white;
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+        font-family: $font-family-logo;
+        font-weight: $font-weight-default;
+        font-size: $font-size-logo-header;
+        color: $text-white;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+}

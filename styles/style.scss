@@ -1,32 +1,44 @@
+@import 'variables/_colors.scss';
+@import 'variables/typography';
+
+@import 'components/header';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: #66BB6A;
-    height: 10vh;
+.background{
+    background-image: url(../assets/images/background.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    text-align: center;
 
-    h2,
-    nav {
-        display: inline-block;
+    h2{
+        font-size: $font-size-logo-background;
+        font-family: $font-family-logo;;
+        color: $text-white;
     }
 
-    nav {
-        width: 40%;
-        text-align: end;
-
-        a {
-            margin-left: 40px;
-            color: #ffffff;
-            text-decoration: none;
-        }
+    p {
+        font-size: $font-size-medium-1;
+        font-family: $font-family-default;
+        font-weight: $font-weight-default;
+        color: $text-white;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
 
-    h2 {
-        color: #ffffff;
-        margin-left: 200px;
-        margin-top: 40px;
+    button{
+        font-size: $font-size-medium-2;
+        background-color: $main-color;
+        font-weight: $font-weight-default;
+        color: $text-white;
+        padding: 30px 60px;
+        border: none;
+        border-radius: 68px;
     }
 }
