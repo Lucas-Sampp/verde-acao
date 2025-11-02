@@ -1,4 +1,5 @@
 @import 'variables/_colors.scss';
+@import 'variables/typography';
 
 @import 'components/header';
 
@@ -17,23 +18,27 @@
     text-align: center;
 
     h2{
-        font-size: 96px;
+        font-size: $font-size-logo-background;
+        font-family: $font-family-logo;;
         color: $text-white;
     }
 
     p {
-        font-size: 2rem;
+        font-size: $font-size-medium-1;
+        font-family: $font-family-default;
+        font-weight: $font-weight-default;
         color: $text-white;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     button{
-        font-size: 1rem;
+        font-size: $font-size-medium-2;
         background-color: $main-color;
+        font-weight: $font-weight-default;
         color: $text-white;
-        padding: 15px 30px;
+        padding: 30px 60px;
         border: none;
-        border-radius: 30px;
+        border-radius: 68px;
     }
 }

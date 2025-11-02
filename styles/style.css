@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
 header {
   background-color: #66bb6a;
   height: 10vh;
@@ -7,18 +8,24 @@ header nav {
   display: inline-block;
 }
 header nav {
-  width: 40%;
+  width: 60%;
   text-align: end;
 }
 header nav a {
-  margin-left: 40px;
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  margin-left: 80px;
   color: #ffffff;
   text-decoration: none;
 }
 header h2 {
+  font-family: "Sansita Swashed", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
   color: #ffffff;
   margin-left: 200px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 * {
@@ -37,19 +44,23 @@ header h2 {
 }
 .background h2 {
   font-size: 96px;
+  font-family: "Sansita Swashed", Arial, sans-serif;
   color: #ffffff;
 }
 .background p {
-  font-size: 2rem;
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .background button {
-  font-size: 1rem;
+  font-size: 28px;
   background-color: #66bb6a;
+  font-weight: 700;
   color: #ffffff;
-  padding: 15px 30px;
+  padding: 30px 60px;
   border: none;
-  border-radius: 30px;
+  border-radius: 68px;
 }/*# sourceMappingURL=style.css.map */
