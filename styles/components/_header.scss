@@ -8,19 +8,24 @@ header {
     }
 
     nav {
-        width: 40%;
+        width: 60%;
         text-align: end;
-
         a {
-            margin-left: 40px;
+            font-size: $font-size-medium-1;
+            font-family: $font-family-default;
+            font-weight: $font-weight-default;
+            margin-left: 80px;
             color: $text-white;
             text-decoration: none;
         }
     }
 
     h2 {
+        font-family: $font-family-logo;
+        font-weight: $font-weight-default;
+        font-size: $font-size-logo-header;
         color: $text-white;
         margin-left: 200px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 }
