@@ -30,3 +30,33 @@ header {
         margin-top: 40px;
     }
 }
+
+.background{
+    background-image: url(../assets/images/background.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    text-align: center;
+
+    h2{
+        font-size: 96px;
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        font-size: 1rem;
+        background-color: #66bb6a;
+        color: #ffffff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 30px;
+    }
+}

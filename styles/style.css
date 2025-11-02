@@ -25,4 +25,31 @@ header h2 {
   color: #ffffff;
   margin-left: 200px;
   margin-top: 40px;
+}
+
+.background {
+  background-image: url(../assets/images/background.png);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  text-align: center;
+}
+.background h2 {
+  font-size: 96px;
+  color: #ffffff;
+}
+.background p {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.background button {
+  font-size: 1rem;
+  background-color: #66bb6a;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */
