@@ -121,9 +121,12 @@ header h2 {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 48px;
   color: #2A2A2A;
+  padding: 10px;
 }
 .form-section p {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 28px;
   color: #767676;
+  width: 50%;
+  margin: 10px auto;
 }/*# sourceMappingURL=style.css.map */

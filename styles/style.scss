@@ -57,13 +57,14 @@
         font-family: $font-family-default;
         font-size: $font-size-large;
         color: $text-form-default;
-    
+        padding: 10px;
     }
 
     p {
         font-family: $font-family-default;
         font-size: $font-size-medium-2;
         color: $text-form-description;
-    
+        width: 50%;
+        margin: 10px auto;
     }
 }
