@@ -111,4 +111,19 @@ header h2 {
 .cards-section {
   background-color: #f1f8e9;
   text-align: center;
+}
+
+.form-section {
+  background-color: #E8F5E9;
+  text-align: center;
+}
+.form-section h2 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 48px;
+  color: #2A2A2A;
+}
+.form-section p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 28px;
+  color: #767676;
 }/*# sourceMappingURL=style.css.map */
