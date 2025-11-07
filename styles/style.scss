@@ -1,8 +1,9 @@
 @import 'variables/_colors.scss';
-@import 'variables/typography';
+@import 'variables/_typography';
+@import 'utils/_mixins';
 
 @import 'components/header';
-@import 'components/card';
+@import 'components/_card';
 
 * {
     margin: 0;
@@ -34,10 +35,9 @@
     }
 
     button{
+        @include button-default;
         font-size: $font-size-medium-2;
-        background-color: $main-color;
         font-weight: $font-weight-default;
-        color: $text-white;
         padding: 30px 60px;
         border: none;
         border-radius: 68px;

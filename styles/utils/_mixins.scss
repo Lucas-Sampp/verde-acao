@@ -1,0 +1,5 @@
+@mixin button-default {
+    font-family: $font-family-default;
+    color: $text-white;
+    background-color: $main-color;
+}
