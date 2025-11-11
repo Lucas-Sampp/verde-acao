@@ -1,0 +1,17 @@
+footer {
+    background-color: $main-color;
+    height: 10vh;
+    align-items: center;
+
+    p {
+        display: block;
+        font-size: $font-size-medium-1;
+        font-family: $font-family-default;
+        font-weight: $font-weight-default;
+        color: $text-white;
+        text-align: center;
+        height: 100%;
+        padding-top: 4vh;
+
+    }
+}
