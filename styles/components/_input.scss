@@ -6,11 +6,25 @@
         font-weight: $font-weight-default;
         display: block;
         width: 65%;
-        // text-align: left;
+        margin: 10px auto;
+        // border: 1px solid black;
+        text-align: left;
     }
 
     input {
         border-radius: 25px;
         border: none;
+        padding: 20px;
+        padding-left: 40px;
+        width: 65%;
+        height: 54px;
+        margin: 10px auto;
+    }
+
+    ::placeholder {
+        color: $text-placeholder;
+        font-family: $font-family-default;
+        font-size: $font-size-medium-1;
+        font-weight: $font-weight-default;
     }
 }
