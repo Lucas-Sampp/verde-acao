@@ -1,0 +1,16 @@
+.input {
+    label {
+        font-family: $font-family-default;
+        font-size: $font-size-medium-1;
+        color: $text-form-default;
+        font-weight: $font-weight-default;
+        display: block;
+        width: 65%;
+        // text-align: left;
+    }
+
+    input {
+        border-radius: 25px;
+        border: none;
+    }
+}

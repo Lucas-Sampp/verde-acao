@@ -3,7 +3,8 @@
 @import 'utils/_mixins';
 
 @import 'components/header';
-@import 'components/_card';
+@import 'components/card';
+@import 'components/input';
 
 * {
     margin: 0;
@@ -52,11 +53,17 @@
 .form-section{
     background-color: $form-section-color;
     text-align: center;
+    padding: 10px;
 
+    fieldset {
+        border: none;
+    }
+    
     h2 {
         font-family: $font-family-default;
         font-size: $font-size-large;
         color: $text-form-default;
+        font-weight: $font-weight-default;
         padding: 10px;
     }
 

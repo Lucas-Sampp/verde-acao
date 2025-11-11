@@ -70,6 +70,19 @@ header h2 {
   padding: 15px 30px;
 }
 
+.input label {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 24px;
+  color: #2A2A2A;
+  font-weight: 700;
+  display: block;
+  width: 65%;
+}
+.input input {
+  border-radius: 25px;
+  border: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -116,11 +129,16 @@ header h2 {
 .form-section {
   background-color: #E8F5E9;
   text-align: center;
+  padding: 10px;
+}
+.form-section fieldset {
+  border: none;
 }
 .form-section h2 {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 48px;
   color: #2A2A2A;
+  font-weight: 700;
   padding: 10px;
 }
 .form-section p {
