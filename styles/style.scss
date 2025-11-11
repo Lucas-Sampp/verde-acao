@@ -74,4 +74,12 @@
         width: 50%;
         margin: 10px auto;
     }
+
+    select {
+        @include input-default;
+        color: $text-placeholder;
+        font-family: $font-family-default;
+        font-size: $font-size-medium-1;
+        font-weight: $font-weight-default;
+    }
 }

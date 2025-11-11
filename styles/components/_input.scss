@@ -12,13 +12,7 @@
     }
 
     input {
-        border-radius: 25px;
-        border: none;
-        padding: 20px;
-        padding-left: 40px;
-        width: 65%;
-        height: 54px;
-        margin: 10px auto;
+        @include input-default;
     }
 
     ::placeholder {
