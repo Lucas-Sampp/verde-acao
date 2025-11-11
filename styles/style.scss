@@ -5,6 +5,7 @@
 @import 'components/header';
 @import 'components/card';
 @import 'components/input';
+@import 'components/_footer.scss';
 
 * {
     margin: 0;
@@ -83,3 +84,4 @@
         font-weight: $font-weight-default;
     }
 }
+
