@@ -1,0 +1,24 @@
+.input {
+    label {
+        font-family: $font-family-default;
+        font-size: $font-size-medium-1;
+        color: $text-form-default;
+        font-weight: $font-weight-default;
+        display: block;
+        width: 65%;
+        margin: 10px auto;
+        // border: 1px solid black;
+        text-align: left;
+    }
+
+    input {
+        @include input-default;
+    }
+
+    ::placeholder {
+        color: $text-placeholder;
+        font-family: $font-family-default;
+        font-size: $font-size-medium-1;
+        font-weight: $font-weight-default;
+    }
+}

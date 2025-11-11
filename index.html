@@ -54,8 +54,51 @@
                 <p>Indentifique areas que precisam de mapeamento </p>
                 <button> Ver mais</button>
             </article>
-
         </section>
+
+        <section class="form-section">
+            <form action="" method="POST">
+
+                <fieldset>
+
+                    <h2>Cadastre-se como voluntário</h2>
+                    <p>Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar
+                        grandesimpactos na natureza e na comunidade</p>
+
+                    <div class="input">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Nome" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="email" placeholder="E-mail" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city" placeholder="Cidade" required>
+                    </div>
+                    
+                    <div class="input">
+                        <label for="activity">Atividade:</label>
+                        <select name="activity" id="activity" required>
+                            <option value="" disabled selected> Selecione uma opção</option>
+                            <option value="plantio">Plantio de Mudas</option>
+                            <option value="educacao">Educação Ambiental</option>
+                            <option value="cuidados">Cuidados</option>
+                            <option value="mapeamento">Mapeamento</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <footer class="footer">
+
+            <p>© Todos os Direitos Reservados </p>
+        
+        </footer>
 
     </main>
 </body>
