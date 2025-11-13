@@ -24,6 +24,7 @@
     background-color: $form-section-color;
     text-align: center;
     padding: 10px;
+    padding-bottom: 46px;
 
     fieldset {
         border: none;
@@ -35,6 +36,7 @@
         color: $text-form-default;
         font-weight: $font-weight-default;
         padding: 10px;
+        margin-top: 10px;
     }
 
     p {
@@ -47,6 +49,7 @@
 
     select {
         @include input-default;
+        @include shadow-config (rgba(0, 0, 0, 0.15), 4px);
         color: $text-placeholder;
         font-family: $font-family-default;
         font-size: $font-size-medium-1;
