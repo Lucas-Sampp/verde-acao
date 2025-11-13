@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
 header {
   background-color: #66bb6a;
+  height: 123px;
+  line-height: 123px;
 }
 header h2,
 header nav {
   display: inline-block;
+  vertical-align: middle;
 }
 header nav {
-  width: 60%;
+  width: 55%;
   text-align: end;
 }
 header nav a {
@@ -24,7 +27,6 @@ header h2 {
   font-size: 50px;
   color: #ffffff;
   margin-left: 200px;
-  margin-top: 30px;
 }
 
 .hero-section {
@@ -126,6 +128,7 @@ header h2 {
   background-color: #ffffff;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .input ::-moz-placeholder {
   color: #8E8E8E;
@@ -171,6 +174,7 @@ footer p {
   background-color: #E8F5E9;
   text-align: center;
   padding: 10px;
+  padding-bottom: 46px;
 }
 .form-section fieldset {
   border: none;
@@ -181,6 +185,7 @@ footer p {
   color: #2A2A2A;
   font-weight: 700;
   padding: 10px;
+  margin-top: 10px;
 }
 .form-section p {
   font-family: "Roboto", Arial, sans-serif;
@@ -200,6 +205,7 @@ footer p {
   background-color: #ffffff;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #8E8E8E;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 24px;
