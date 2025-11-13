@@ -3,47 +3,16 @@
 @import 'utils/_mixins';
 
 @import 'components/header';
+@import 'components/hero';
 @import 'components/card';
 @import 'components/input';
-@import 'components/_footer.scss';
+@import 'components/footer.scss';
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.background-section{
-    background-image: url(../assets/images/background.png);
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 180px;
-    text-align: center;
-
-    h2{
-        font-size: $font-size-logo-background;
-        font-family: $font-family-logo;;
-        color: $text-white;
-    }
-
-    p {
-        font-size: $font-size-medium-1;
-        font-family: $font-family-default;
-        font-weight: $font-weight-default;
-        color: $text-white;
-        margin-top: 10px;
-        margin-bottom: 50px;
-    }
-
-    button{
-        @include button-default;
-        font-size: $font-size-medium-2;
-        font-weight: $font-weight-default;
-        padding: 30px 60px;
-        border: none;
-        border-radius: 68px;
-    }
 }
 
 .cards-section{
