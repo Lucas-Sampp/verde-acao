@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
 header {
   background-color: #66bb6a;
-  height: 10vh;
 }
 header h2,
 header nav {
@@ -26,6 +25,40 @@ header h2 {
   color: #ffffff;
   margin-left: 200px;
   margin-top: 30px;
+}
+
+.hero-section {
+  background-image: url(../assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.hero-section h2 {
+  font-size: 96px;
+  font-family: "Sansita Swashed", Arial, sans-serif;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+.hero-section p {
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin: 10px auto 32px;
+}
+.hero-section button {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #66bb6a;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 30px 60px;
+  border: none;
+  border-radius: 68px;
 }
 
 .card {
@@ -126,38 +159,6 @@ footer p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.background-section {
-  background-image: url(../assets/images/background.png);
-  height: 60vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 180px;
-  text-align: center;
-}
-.background-section h2 {
-  font-size: 96px;
-  font-family: "Sansita Swashed", Arial, sans-serif;
-  color: #ffffff;
-}
-.background-section p {
-  font-size: 24px;
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 50px;
-}
-.background-section button {
-  font-family: "Roboto", Arial, sans-serif;
-  color: #ffffff;
-  background-color: #66bb6a;
-  font-size: 28px;
-  font-weight: 700;
-  padding: 30px 60px;
-  border: none;
-  border-radius: 68px;
 }
 
 .cards-section {
