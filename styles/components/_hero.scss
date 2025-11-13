@@ -1,0 +1,34 @@
+.hero-section{
+    background-image: url(../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    text-align: center;
+    padding-bottom: 48px;
+
+    h2{
+        font-size: $font-size-logo-background;
+        font-family: $font-family-logo;;
+        color: $text-white;
+        margin: 0 0 16px 0; 
+    }
+
+    p {
+        font-size: $font-size-medium-1;
+        font-family: $font-family-default;
+        font-weight: $font-weight-default;
+        color: $text-white;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin: 10px auto 32px;
+    }
+
+    button{
+        @include button-default;
+        font-size: $font-size-medium-2;
+        font-weight: $font-weight-default;
+        padding: 30px 60px;
+        border: none;
+        border-radius: 68px;
+    }
+}

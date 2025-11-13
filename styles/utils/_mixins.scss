@@ -16,3 +16,7 @@
     font-family: $font-family-default;
     font-size: $font-size-medium-1;
 }
+
+@mixin shadow-config ($shadow-color, $blur,) {
+    box-shadow: 0px 4px $blur $shadow-color;
+}
