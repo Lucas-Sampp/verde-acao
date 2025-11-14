@@ -1,0 +1,36 @@
+.form-section{
+    background-color: $form-section-color;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 46px;
+
+    fieldset {
+        border: none;
+    }
+    
+    h2 {
+        font-family: $font-family-default;
+        font-size: $font-size-large;
+        color: $text-form-default;
+        font-weight: $font-weight-default;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-family: $font-family-default;
+        font-size: $font-size-medium-2;
+        color: $text-form-description;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    select {
+        @include input-default;
+        @include shadow-config (rgba(0, 0, 0, 0.15), 4px);
+        color: $text-placeholder;
+        font-family: $font-family-default;
+        font-size: $font-size-medium-1;
+        font-weight: $font-weight-default;
+    }
+}

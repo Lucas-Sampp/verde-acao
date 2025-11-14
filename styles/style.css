@@ -1,34 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
-header {
-  background-color: #66bb6a;
-  height: 123px;
-  line-height: 123px;
-}
-header h2,
-header nav {
-  display: inline-block;
-  vertical-align: middle;
-}
-header nav {
-  width: 55%;
-  text-align: end;
-}
-header nav a {
-  font-size: 24px;
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
-  margin-left: 80px;
-  color: #ffffff;
-  text-decoration: none;
-}
-header h2 {
-  font-family: "Sansita Swashed", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  color: #ffffff;
-  margin-left: 200px;
-}
-
 .hero-section {
   background-image: url(../assets/images/background.png);
   background-repeat: no-repeat;
@@ -61,6 +31,83 @@ header h2 {
   padding: 30px 60px;
   border: none;
   border-radius: 68px;
+}
+
+.cards-section {
+  background-color: #f1f8e9;
+  text-align: center;
+}
+
+.form-section {
+  background-color: #E8F5E9;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 46px;
+}
+.form-section fieldset {
+  border: none;
+}
+.form-section h2 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 48px;
+  color: #2A2A2A;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 10px;
+}
+.form-section p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 28px;
+  color: #767676;
+  width: 50%;
+  margin: 10px auto;
+}
+.form-section select {
+  border-radius: 25px;
+  border: none;
+  padding: auto 0;
+  padding-left: 40px;
+  width: 65%;
+  height: 54px;
+  margin: 10px auto;
+  background-color: #ffffff;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #8E8E8E;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header {
+  background-color: #66bb6a;
+  height: 123px;
+  line-height: 123px;
+}
+header h2,
+header nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+header nav {
+  width: 55%;
+  text-align: end;
+}
+header nav a {
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  margin-left: 80px;
+  color: #ffffff;
+  text-decoration: none;
+}
+header h2 {
+  font-family: "Sansita Swashed", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  margin-left: 200px;
 }
 
 .card {
@@ -163,51 +210,4 @@ footer p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.cards-section {
-  background-color: #f1f8e9;
-  text-align: center;
-}
-
-.form-section {
-  background-color: #E8F5E9;
-  text-align: center;
-  padding: 10px;
-  padding-bottom: 46px;
-}
-.form-section fieldset {
-  border: none;
-}
-.form-section h2 {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 48px;
-  color: #2A2A2A;
-  font-weight: 700;
-  padding: 10px;
-  margin-top: 10px;
-}
-.form-section p {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 28px;
-  color: #767676;
-  width: 50%;
-  margin: 10px auto;
-}
-.form-section select {
-  border-radius: 25px;
-  border: none;
-  padding: auto 0;
-  padding-left: 40px;
-  width: 65%;
-  height: 54px;
-  margin: 10px auto;
-  background-color: #ffffff;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 24px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: #8E8E8E;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
